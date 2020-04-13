@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+.main-grid {
+    display: flex;
+}
+.input-grid {
+    width: 100%;
+    border: 0;
+    padding: 8px 10px;
+    display: inline-block;
+    font-size: 14px;
+    background: #f8f8f8;
+    border-radius: 3px;
+    margin: 5px;
+    height: 40px;
+}
+.nav-left {
+    width: 20%;
+    height: 100vh;
+    padding: 20px;
+    background: #f8f8f8;
+}
+.nav-left .title {
+    padding: 20px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    background: #6EB824;
+    color: #fff;
+}
+.nav-list {
+    padding: 0;
+    margin: 0;
+}
+.nav-list li {
+    list-style-type: none;
+    padding: 14px;
+    background: #222;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 2px;
+}
+.nav-list li li {
+    padding-top: 20px;
+    border-bottom: 1px solid #fff;
+}
+.content {
+    width: 80%;
+    padding: 30px;
+}
+.header-actions {
+    justify-content: space-between;
+    padding: 10px 0;
+    border-top: 1px solid #eee;
+}
+.header-actions button {
+    border: 0;
+    background: #27772D;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+}
+.header-actions button.delete {
+    background-color: #bc050b;
+}
+.header-actions .search {
+    width: 300px;
+    background: #f8f8f8;
+    border: 0;
+    padding: 10px;
+}
+.table-wrap {
+    padding: 20px;
+    border: 1px solid #eee;
+}
+.rut-table {
+    margin-top: 15px;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+.rut-table th {
+    padding: 10px 0;
+    border: 1px solid #f8f8f8;
+}
+.rut-table td {
+    border: 2px solid #fff;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    background-color: #f8f8f8;
+    padding: 10px;
+}
+.action-buttons .add,
+.action-buttons .remove {
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    border-radius: 3px;
+    background: #eee;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.action-buttons .add {
+    background-color: #27772D;
+    margin-right: 10px;
+}
+.action-buttons .remove {
+    background-color: #bc050b;
+}
+.action-buttons,
+.total-table {
+    width: 50%;
+}
+.total-table {
+    display: flex;
+    justify-content: flex-end;
+}
+.total-table input {
+    background: #f8f8f8;
+    border: 0;
+    padding: 10px;
+}
+.total-table table {
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    padding: 2px 10px;
+}
+.total-table table td {
+    border-top: 3px solid #fff;
+}
+.send-button {
+    width: 100%;
+    border: 0;
+    background: #6EB824;
+    color: #fff;
+    padding: 10px 0;
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+}

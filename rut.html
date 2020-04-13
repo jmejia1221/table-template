@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="rut.css">
+</head>
+<body>
+    <nav></nav>
+
+    <section class="main-grid">
+        <nav class="nav-left">
+            <span class="title">Panel de Navegación</span>
+            <ul class="nav-list">
+                <li>Logistica</li>
+                <li>
+                    <span>Compras</span>
+                    <!-- <ul>
+                        <li>Compra de panela</li>
+                        <li>Compra de caña</li>
+                        <li>Compra de insumos</li>
+                    </ul> -->
+                </li>
+                <li>Cultivo</li>
+                <li>Producción</li>
+                <li>Mantenimiento</li>
+                <li>Administración</li>
+            </ul>
+        </nav>
+        <section class="content">
+            <header class="main-grid header-actions">
+                <div class="main-grid">
+                    <button>Guardar</button>
+                    <button>Editar</button>
+                    <button class="delete">Eliminar</button>
+                </div>
+                <div>
+                    <input class="search" type="text" placeholder="Buscar">
+                </div>
+            </header>
+
+            <div class="table-wrap"> <!-- Table section -->
+                <header class="main-grid">
+                    <img />
+                    <h2>Formulario Asignación de RUTS</h2>
+                </header>
+                <div class="main-grid">
+                    <input class="input-grid" type="date">
+                    <input class="input-grid" type="text">
+                    <input class="input-grid" type="text">
+                    <select class="input-grid">
+                        <option>Centro de costos</option>
+                    </select>
+                </div>
+                <div class="main-grid">
+                    <select class="input-grid">
+                        <option>Número de identificación</option>
+                    </select>
+                    <select class="input-grid">
+                        <option>Nombre / Razón Social</option>
+                    </select>
+                </div>
+                <div> <!-- Table -->
+                    <table class="rut-table">
+                        <thead>
+                          <tr>
+                            <th>Tipo de Producto</th>
+                            <th>Referencia</th>
+                            <th>Descripción</th>
+                            <th>Cant</th>
+                            <th>Vr. Unitario</th>
+                            <th>Vr. Total</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Dato</td>
+                            <td>Dato</td>
+                            <td>Dato</td>
+                            <td>Dato</td>
+                            <td>Dato</td>
+                            <td>Dato</td>
+                          </tr>
+                          <tr>
+                            <td>Dato</td>
+                            <td>Dato</td>
+                            <td>Dato</td>
+                            <td>Dato</td>
+                            <td>Dato</td>
+                            <td>Dato</td>
+                          </tr>
+                        </tbody>
+                    </table> 
+                </div>
+                <footer class="main-grid">
+                    <div class="main-grid action-buttons">
+                        <span class="add">+</span>
+                        <span class="remove">x</span>
+                    </div>
+                    <div class="total-table">
+                        <table>
+                            <tr>
+                                <td>
+                                    <strong>Subtotal</strong></td>
+                                <td>
+                                    <input type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <strong>Impuestos</strong></td>
+                                <td>
+                                    <input type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <strong>Total a Pagar</strong>
+                                </td>
+                                <td>
+                                    <input type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <button class="send-button">Enviar</button>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </footer>
+            </div>
+        </section>
+    </section>
+    
+    
+</body>
+</html>
